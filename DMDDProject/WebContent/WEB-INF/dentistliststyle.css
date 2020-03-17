@@ -1,0 +1,63 @@
+@CHARSET "ISO-8859-1";
+body{
+	background-image: url("/img/DMDDImage.png");
+	background: #141414;
+	margin:0;
+	font-family: Candara;
+	color: #eee;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+	padding: 20px;
+}
+
+ header {
+	background: #0d0d0d;
+	padding: 20px;
+	text-align: center;
+}
+
+a{
+	font-size: 18px;
+	text-decoration: none;
+}
+a:link {
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: hotpink;
+  font-size: 18px;
+  text-decoration: none;
+}
+fieldset {
+	padding : 20px;
+	margin: 20px 0;
+	border: 3px solid #141414;
+}
+th {
+	padding : 20px;
+	margin: 20px 0;
+}
+legend {
+	color: #eee;
+	padding : 10px;
+	font-size : 18px;
+	letter-spacing : 0.1em;
+}
